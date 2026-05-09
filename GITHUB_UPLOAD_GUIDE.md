@@ -89,4 +89,3 @@ You now have a professional data science portfolio on GitHub that showcases:
 - Data cleaning and analysis
 - Data visualization
 - Technical documentation
-- Real-world context (Morocco water quality article)
