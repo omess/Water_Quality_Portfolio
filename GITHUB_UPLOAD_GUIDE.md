@@ -20,44 +20,7 @@
 2. Run the installer (use default settings)
 3. Restart your terminal/PowerShell after installation
 
-## Step 4: Upload Files Using GitHub Web Interface (Easiest Method)
 
-### Option A: Drag and Drop (Recommended for beginners)
-1. Go to your new repository on GitHub
-2. Click **"uploading an existing file"** link
-3. Open the folder: `C:\Users\omare\Desktop\Data_Scientist\water-quality-portfolio`
-4. **Select all files** (Ctrl+A) and **drag them** into the GitHub upload area
-5. Add a commit message: `"Initial commit: Add water quality analysis portfolio"`
-6. Click **"Commit changes"**
-
-### Option B: Using Git Command Line (After installing Git)
-
-Open PowerShell and run these commands:
-
-```powershell
-# Navigate to your portfolio folder
-cd "C:\Users\omare\Desktop\Data_Scientist\water-quality-portfolio"
-
-# Initialize Git
-git init
-
-# Configure your GitHub credentials (replace with your info)
-git config --global user.name "Your Name"
-git config --global user.email "your.email@example.com"
-
-# Add all files
-git add .
-
-# Commit the files
-git commit -m "Initial commit: Add water quality analysis portfolio"
-
-# Add your GitHub repository (replace with your username and repo URL)
-git remote add origin https://github.com/YOUR_USERNAME/water-quality-portfolio.git
-
-# Push to GitHub
-git branch -M main
-git push -u origin main
-```
 
 ## Step 5: Verify Your Portfolio
 1. Go to your repository on GitHub: `https://github.com/YOUR_USERNAME/water-quality-portfolio`
@@ -125,6 +88,5 @@ You now have a professional data science portfolio on GitHub that showcases:
 - Python programming skills
 - Data cleaning and analysis
 - Data visualization
-- Environmental science knowledge
 - Technical documentation
 - Real-world context (Morocco water quality article)
